@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+body {
+	font-family: 'Conv_Mulish';
+	margin: 0;
+	padding: 0;
+}
+
+#wrap {
+	position: relative;
+	width: 840px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: lightgreen;
+	border: thin dashed lightblue;
+}
+
+#navi {
+	margin-left: 42px;
+	width: 756px;
+	height: 26px;
+	margin: 0 auto;
+}
+
+#navi div {
+	width: 26px;
+	height: 26px;
+	margin-left: 1px;
+	float: left;
+	line-height: 26px;
+	text-align: center;
+}
+
+#content {
+	width: 790px;
+	height: 462px;
+	max-height: 462px;
+	margin-left: 41px;
+	border: thin solid lightgreen;
+	overflow-y:auto;
+	background-color: none;
+}
+#innercontent{
+	position: relative;
+	width: 756px;
+	background-color: white;
+	
+}
+#innercontent div {
+	width: 26px;
+	height: 22px;
+	margin-top: 1px;
+	margin-left: 1px;
+	float: left;
+	text-align: center;
+	line-height: 22px;
+	border: none;
+}
+
+.indicate {
+	background-color: #690;
+}
+
+.br {
+	border-right: thin solid white;
+}
+
+.seat1 {
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-image: url(images/SVG/Asset%2015.svg);
+	background-attachment: local;
+}
+
+.seat2 {
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-image: url(images/SVG/Asset%2016.svg);
+	background-attachment: local;
+}
+
+.seat3 {
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-image: url(images/SVG/Asset%2017.svg);
+	background-attachment: local;
+}
+
+.seat4 {
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-image: url(images/SVG/Asset%2018.svg);
+	background-attachment: local;
+}
+
+#footer {
+	position: relative;
+	width: 756px;
+	margin: 0 auto 10px auto;
+	height: 30px;
+	border-top: thin solid lightgreen;
+	text-align: center;
+}
+
+#footer button {
+	font-family: 'Conv_Mulish';
+	padding: 0;
+	width: 120px;
+	height: 28px;
+	line-height: 26px;
+	text-align: center;
+	margin: 5px 50px 5px 50px;
+}
+.choose:hover{cursor:pointer;}
